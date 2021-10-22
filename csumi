@@ -1,1 +1,68 @@
-csumicsumicsumicsumicsumicsumicsumicsumicsumicsumicsumi
+def f1(label):
+    print(label)
+    prompt= "\tKérek egy egészszámot: "
+    a= int(input(prompt))
+    prompt= "\tKérek egy egészszámot: "
+    b= int(input(prompt))
+    txt= "\t" + str(a) + "+" + str(b) + " = "+ str(a+b)
+    print(txt)
+    txt= "\t" + str(a) + "*" + str(b) + " = "+ str(a*b)
+    print(txt)
+    txt= "\t" + str(a) + "-" + str(b) + " = "+ str(a-b)
+    print(txt)
+    txt= "\t" + str(b) + "-" + str(a) + " = "+ str(b-a)
+    print(txt)
+    txt= "\t" + str(a) + "/" + str(b) + " = "+ str(a/b)
+    print(txt)
+
+def f2(label):
+    print(label)
+    prompt ="\tKérek egy egészszámot: "
+    a= int(input(prompt))
+    txt= "\t" + str(a) + "*" + str(2) + " = "+ str(a*2)
+    print(txt)
+
+def f3(label):
+    print(label)
+    "\tKérem egy téglatest a, b, c élének hosszát egészszámokkal: "
+    prompt= "\ta = "
+    a= int(input(prompt))
+    prompt= "\tb = "
+    b= int(input(prompt))
+    prompt= "\tc = "
+    c= int(input(prompt))
+    txt= "\t"+ str(a) + "+" + str(b) + "+" + str(c) + " = "+ str(a+b+c)
+    print(txt)
+    txt = "\tA = " + str(2*(a*b + a*c + b*c)) + " cm2"
+    print(txt)
+    txt = "\tV = " + str(a*b*c) + " cm3"
+    print(txt)
+
+def f4(label):
+    print(label)
+    prompt ="\tKérek egy egészszámot: "
+    a= int(input(prompt))
+    prompt ="\t Kérek egy egészszámot: "
+    b= int (input (prompt))
+    txt= "\tÁtlag= "+ str((a+b)/2)
+    print(txt)
+
+def f5(label):
+    print(label)
+    prompt="\tKérem a csiga nevét: "
+    name= (input(prompt))
+    prompt="\tMegtett út: "
+    a= int(input(prompt))
+    prompt="\tMegtett út: "
+    b= int(input(prompt))
+    prompt="\tMegtett út: "
+    c= int(input(prompt))
+    txt= "\t"+name + " nevű csiga 3 nap alatt"+ str(a+b+c) +" utat tett meg. "
+    print(txt)
+
+f1("1. feladat")
+f2("2. feladat")
+f2("2. feladat")
+f3("3. feladat")
+f4("4. feladat")
+f5("5. feladat")
