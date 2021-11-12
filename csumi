@@ -31,12 +31,16 @@ def f1(label):
         print('Az egyik megoldás', x1)
         print('A másik megoldás', x2)
     
-def f2(label):
-    print(label)
-    prompt ="\tKérek egy egészszámot: "
-    a= int(input(prompt))
-    txt= "\t" + str(a) + "*" + str(2) + " = "+ str(a*2)
-    print(txt)
+def f2(a,b):
+   print(Képlet: a*x+b=0")
+   a = float(input("Kérem az 'a' értékét: "))
+   b = float(input("Kérem az 'b' értékét: "))
+         if a != 0:
+         x = -b/a
+    if  a==0:
+        if b==0:
+            print("bármelyik szám megoldja az egyenletet")
+
 
 f1("1. feladat")
 f2("2. feladat")
